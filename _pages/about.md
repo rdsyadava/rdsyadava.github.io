@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: ardius@gmail.com
 
 profile:
   align: right
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**R. D. S. Yadava** is an independent researcher in condensed matter physics and sensor systems. His work spans disordered systems, semiconductor materials, microsensors, and intelligent sensing architectures, with a consistent emphasis on connecting physical theory to device behavior. He has contributed to the physics and design of SAW and MEMS/NEMS sensors, electronic nose systems, and sensor signal processing, introducing data-driven approaches to material selection, noise control, and sensitivity enhancement. His research interests include disorder-driven transport and noise, fractals and percolation, nonlinear dynamics, and stochastic resonance, with applications to semiconductor devices and chemical sensing platforms. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+A recurring theme in his work is the constructive role of noise, nonlinearity, and coupling—through mechanisms such as stochastic resonance, synchronization, and parametric excitation—in extending sensor performance beyond conventional limits. More recently, these ideas have been applied to soft-matter and microswimmer systems, where elastohydrodynamic interactions and dynamic symmetry breaking enable efficient propulsion and control. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+He remains actively engaged in research, teaching, and scholarly writing. Previously, he served as Professor of Physics at Banaras Hindu University, Varanasi and as an R&D Scientist at Solid State Physics Laboratory, Delhi (India).
