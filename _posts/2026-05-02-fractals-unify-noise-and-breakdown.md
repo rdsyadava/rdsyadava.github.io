@@ -29,6 +29,8 @@ A companion deck to ["Fractals solve semiconductor puzzles"]({% post_url 2026-05
 
 ## Two puzzles, treated as separate problems
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Erratic breakdown and pervasive 1/f noise — historically treated as separate problems with distinct physical models." %}
+
 In the 1980s, two of the most persistent challenges in MOS device physics were treated as unrelated:
 
 - **Erratic dielectric breakdown.** Why do nominally identical capacitors fail at such a wide distribution of fields? Poisson defect models could not reproduce the observed statistics.
@@ -38,11 +40,17 @@ The proposal: a common geometric origin — the _fractality_ of imperfections in
 
 ## The first clue: defect density depends on area
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-03.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Defect density vs. capacitor area, plotted from independent published datasets — a clean power law, not Poisson noise." %}
+
 The standard Poisson model says: average defect density is a property of the wafer, independent of the test capacitor area $A$. The experimental data — Wolters & Van der Schoot, Osburn & Ormond, Chan & Waggener — show a tidy power law:
 $$D(A) \;\propto\; A^{-k}, \qquad k = (2-Q)/2.$$
 Random distributions require $Q = 2$ ($k = 0$). Real measurements give $Q = 1.5$, $0.8$, $0.2$ — significant deviation in the same direction across independent groups. This isn't measurement noise; it's the fingerprint of a non-random, fractal-clustered system.
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-04.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="A power-law D(A) is the geometric signature of a fractal cluster of defects." %}
+
 ## A physical model for breakdown
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-05.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Two assumptions — a power-law defect-size distribution and a logarithmic strength-vs-size law — derive the observed extreme-value breakdown statistics from first principles." %}
 
 Two assumptions, one geometric and one physical, are enough.
 
@@ -55,7 +63,11 @@ follows by direct calculation. Picturing the oxide film as a sheet with defects 
 
 ## The second puzzle, the same geometry
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-08.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="From randomly distributed traps to a self-similar interface: the new hypothesis for 1/f noise." %}
+
 If fractality describes bulk oxide defects, can the _interface_ be fractal too? The hypothesis: the Si–SiO₂ interface — the inhomogeneous distribution of fixed charges, potential fluctuations, surface roughness — is geometrically self-similar across a range of scales.
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-09.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The Sierpiński-carpet model of the Si–SiO₂ interface: a hierarchy of patches with their own admittances and time constants." %}
 
 Modelled as a Sierpiński-carpet–like fractal of dimension $d \in (1, 2)$, each construction stage contributes patches with their own admittance $Y(\omega)$ and characteristic time. The total admittance is a _geometric series_ in stage index, and the resulting noise power spectrum becomes
 $$S(\omega) \;\propto\; 1/\omega^{\alpha},$$
@@ -64,6 +76,8 @@ with $\alpha$ derived from the interface fractal dimension $d$ — not posited. 
 This is the testable claim: deviations of measured flicker exponents from exactly $1$ are not noise on a noise theory — they are direct readouts of how rough or clustered a particular interface actually is. The paper proposes calling such spectra "fractal $1/f^{\alpha}$ noise" to make the geometric origin explicit.
 
 ## One geometry, two phenomena
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-unify-noise-and-breakdown/page-11.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="One concept — fractal geometry — explains both dielectric breakdown statistics and the 1/f noise spectrum." %}
 
 |                 | Dielectric breakdown              | 1/f flicker noise                                              |
 | --------------- | --------------------------------- | -------------------------------------------------------------- |

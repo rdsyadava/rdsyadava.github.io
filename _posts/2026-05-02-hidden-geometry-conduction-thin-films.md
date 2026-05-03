@@ -27,6 +27,8 @@ A plain-language walk-through of the 1989 _Letter_ in **J. Phys.: Condens. Matte
 
 ## The puzzle
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The conductivity puzzle: the temperature exponent x takes different values for discontinuous films and cermets." %}
+
 Below a critical thickness (≈ 100 Å), thin metal films are not continuous. They form a random distribution of isolated metallic _islands_. In the insulating regime, the DC conductivity follows
 $$\sigma \propto \exp\bigl[-\bigl(T_0/T\bigr)^{x}\bigr],$$
 but the temperature exponent $x$ is not universal:
@@ -38,29 +40,48 @@ Why does $x$ wander between these values for systems that look superficially sim
 
 ## The standard model and where it breaks
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-03.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Thermally activated tunnelling between metallic islands, governed by the charging energy E_c = e²/2C." %}
+
 Conduction proceeds by thermally activated tunnelling between islands. The activation energy is the electrostatic charging energy
 $$E_c \;=\; \frac{e^{2}}{2C},$$
-so everything depends on the island capacitance $C$. The textbook assumption $C \propto r$ (linear in cluster radius) is correct for spheres and disks, but, as the paper argues, it is in _gross error_ for the tortuous, ramified shapes that actually form near the metal–insulator transition.
+so everything depends on the island capacitance $C$. The textbook assumption $C \propto r$ (linear in cluster radius) is correct for spheres and disks, but as the paper argues, it is in _gross error_ for the tortuous, ramified shapes that actually form near the metal–insulator transition.
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-04.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The flawed assumption: islands are not regular Euclidean shapes." %}
 
 ## The fractal insight
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-05.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Near the metal–insulator transition the metal clusters are self-similar fractals." %}
 
 Near the percolation threshold the metal clusters are self-similar fractals. Two consequences matter.
 
 1. **Shielding**. The deep "burrows" and "invaginations" of a fractal cluster are electrostatically shielded — much like the inside of a hollow conductor. Charge can only sit on the _unshielded perimeter_ $t_u$, the outermost tips and buds.
+
+   {% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-06.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Charge accumulates only on the unshielded perimeter; deep invaginations are screened." %}
+
 2. **A new scaling exponent**. If $t_u \propto r^{d_c}$, then $d_c$ is a new "charging exponent" set by the cluster geometry. For Euclidean shapes $d_c = d - 1$; for highly ramified fractals $d_c \to d - 2$.
+
+   {% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-07.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Defining the charging exponent d_c via the unshielded perimeter scaling." %}
 
 A polarisation argument turns this into a capacitance scaling law
 $$C \;\propto\; r^{c}, \qquad c = 2 - d + d_c,$$
 with $0 < c < 1$ — no longer pinned to unity.
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-08.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The new scaling laws for capacitance and charging energy in fractal clusters." %}
+
 ## From a single cluster to the macroscopic exponent
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-10.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Deriving the density of charging states D(E_c) from percolation theory + the new charging-energy law." %}
 
 Combining percolation's cluster size distribution with the new charging-energy law gives the density of charging states
 $$D(E_c) \;\propto\; E_c^{\,d/c - 1}.$$
 Plugged into the Mott variable-range-hopping result $x = (n+1)/(n+d+1)$, the dimension drops out and the answer becomes geometry, not dimensionality:
 $$\boxed{\, x \;=\; \frac{1}{1 + c} \,}$$
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-11.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The dimension cancels: x depends only on the geometric exponent c." %}
+
 ## Why the wandering exponent stops wandering
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-12.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The two extreme cases: cermets (Euclidean) → x = 1/2; discontinuous films (highly ramified) → x → 1." %}
 
 - **Cermets**: nearly Euclidean grains $\Rightarrow d_c \to d-1 \Rightarrow c \to 1 \Rightarrow x = 1/2$. ✓
 - **Discontinuous films near percolation**: highly ramified clusters $\Rightarrow d_c \to d-2 \Rightarrow c \to 0 \Rightarrow x \to 1$. ✓
@@ -68,6 +89,8 @@ $$\boxed{\, x \;=\; \frac{1}{1 + c} \,}$$
 The two extreme experimental values, and everything in between, fall out of a single relation set by the _shape_ of the conducting clusters.
 
 ## What this paper changed
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/hidden-geometry-conduction-thin-films/page-14.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Old vs. new model side-by-side." %}
 
 | Aspect              | Old picture        | New picture                     |
 | ------------------- | ------------------ | ------------------------------- |

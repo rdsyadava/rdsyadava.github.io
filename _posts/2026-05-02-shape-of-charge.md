@@ -27,9 +27,13 @@ A companion deck to ["The hidden geometry of conduction in thin films"]({% post_
 
 ## A wandering exponent
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The exponent x takes very different values in discontinuous films and cermets." %}
+
 Discontinuous films give a temperature exponent $x \approx 1$. Cermets give $x = 1/2$. Same family of systems, very different numbers. The paper described the discontinuous-film case as "least understood so far" and asked whether anything tied the two limits together.
 
 ## The physics of the hop
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-03.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Thermally activated tunnelling between isolated metal islands; the barrier is the charging energy." %}
 
 Conduction proceeds by thermally activated tunnelling between metallic islands. The barrier is the charging energy
 $$E_c \;=\; \frac{e^{2}}{2C},$$
@@ -37,9 +41,13 @@ which depends entirely on the capacitance $C$ of an island.
 
 ## The flawed assumption
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-04.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="C ∝ r is correct for spheres and disks, but in gross error for the worm-like islands of discontinuous films." %}
+
 Past work invariably assumed $C \propto r$, the linear scaling appropriate for _Euclidean_ islands. For the worm-like, ramified islands that actually appear in discontinuous films near percolation, that assumption is in gross error. The real question is geometric: **what is the actual shape of these islands?**
 
 ## Where the charge can — and cannot — sit
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-06.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The deep invaginations of a fractal cluster are electrostatically shielded; only the unshielded perimeter carries charge." %}
 
 When charge is placed on a fractal cluster, it does not coat the surface uniformly. The deep invaginations are electrostatically shielded, like the inside of a hollow sphere. Charge accumulates only on the _unshielded perimeter_ $t_u$, defined by the outward-extending tips and buds.
 
@@ -52,11 +60,15 @@ where $d_c$ is a new "charging exponent" describing the _electrostatically activ
 
 ## A new capacitance law
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-08.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The new capacitance scaling C ∝ r^c, with 0 < c < 1." %}
+
 A polarisation argument gives
 $$C \;\propto\; r^{c}, \qquad c \;=\; 2 - d + d_c,$$
 with the crucial bound $0 < c < 1$. The capacitance no longer scales linearly with island size; it scales by a geometry-dependent exponent.
 
 ## From one cluster to the system
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-09.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Combining percolation, geometry, and the new charging-energy law produces D(E_c) ∝ E_c^{d/c − 1}." %}
 
 Three ingredients combine:
 
@@ -72,12 +84,16 @@ The temperature exponent is determined entirely by the cluster geometry.
 
 ## The two limits
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-13.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="One geometric exponent c interpolates between cermets (x = 1/2) and discontinuous films (x = 1)." %}
+
 - **Cermets (Euclidean grains)**: $d_c \to d - 1 \Rightarrow c \to 1 \Rightarrow x = 1/2$.
 - **Discontinuous films (ramified clusters)**: $d_c \to d - 2 \Rightarrow c \to 0 \Rightarrow x \to 1$.
 
 The "wandering" of $x$ is not evidence of different physics. It is a direct reflection of the underlying cluster geometry — _geometry is destiny_.
 
 ## The story in three steps
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/shape-of-charge/page-14.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The flaw, the insight, the unification — in one slide." %}
 
 1. **The flaw.** $E_c \propto 1/r$ is wrong for the irregular, fractal shapes found in discontinuous films.
 2. **The insight.** Most of a fractal's boundary is electrostatically shielded; what matters is the unshielded perimeter and its scaling exponent $c$, with $E_c \propto 1/r^{c}$ and $0 < c < 1$.

@@ -3,13 +3,23 @@ cv:
   label: Independent researcher · Condensed matter physics & sensor systems
   email: ardius@gmail.com
   summary: >
-    Independent researcher whose work spans disordered systems, semiconductor
-    materials, microsensors, and intelligent sensing architectures, with a
-    consistent emphasis on connecting physical theory to device behavior.
-    Contributions include the physics and design of SAW and MEMS/NEMS sensors,
-    electronic-nose systems, sensor signal processing, fractal models of 1/f
-    noise and dielectric breakdown, nonlinear-dynamics-based sensor
-    architectures, and elastohydrodynamic models of microswimmer propulsion.
+    Independent researcher whose work bridges condensed matter physics and
+    sensor systems, with a consistent emphasis on connecting physical theory to
+    device behaviour. Contributions span fractal models of 1/f noise, dielectric
+    breakdown statistics in MOS devices, electrostatic theory of disordered
+    metallic films, charge transport and intrinsic-carrier physics in
+    HgCdTe/CdTe infrared materials, the design and architecture of SAW and
+    MEMS/NEMS chemical and biological sensors, electronic-nose data analytics,
+    and nonlinear-dynamics-based sensing — including stochastic-resonance and
+    synchronization-coupled oscillator architectures. Recent work extends these
+    themes to active soft matter, where elastohydrodynamic interactions and
+    parametric excitation enable propulsion and navigation of artificial
+    microswimmers. A unifying thread is the constructive role of disorder,
+    nonlinearity, and coupling — through mechanisms such as fractal geometry,
+    stochastic resonance, synchronization, and parametric excitation — in
+    extending sensor performance beyond conventional limits. Previously
+    Professor of Physics at Banaras Hindu University, Varanasi, and R&D
+    Scientist at the Solid State Physics Laboratory (DRDO), Delhi, India.
 
   sections:
     Experience:
@@ -25,30 +35,90 @@ cv:
         location: Varanasi, India
         summary: >
           Led research and teaching in condensed matter physics, sensor
-          systems, electronic-nose data analytics, MEMS/NEMS dynamics, and
-          nonlinear-dynamics-based sensor architectures.
+          systems, MEMS/NEMS dynamics, electronic-nose data analytics, and
+          nonlinear-dynamics-based sensor architectures. Principal investigator
+          on sponsored projects in molecular recognition for polymeric sensor
+          platforms (DRDO) and electronic-nose technology development (DST).
 
       - company: Solid State Physics Laboratory (DRDO)
         position: R&D Scientist
         location: Delhi, India
         summary: >
           Research and development on HgCdTe/CdTe materials for infrared
-          detectors, surface-acoustic-wave (SAW) devices and chemical sensors,
-          radar signal processing, and sensor technology programs.
+          detectors, surface-acoustic-wave (SAW) devices and chemical sensors
+          for chemical-warfare-agent and explosives detection, radar signal
+          processing, and SAW-based biosensors. Coordinator of multiple
+          long-running technology programmes including the SAW Devices and
+          Subsystems programme, the SAW Biosensor Development project, and the
+          Indo-Russia ILTP advanced-SAW programme.
 
-    Research interests:
-      - name: Condensed matter
+    Interests:
+      - name: Disordered systems & condensed matter
         icon: fa-solid fa-hashtag
-        keywords: "Disordered systems, fractals, percolation, 1/f noise, variable-range hopping, dielectric breakdown"
-      - name: Sensor systems
-        icon: fa-solid fa-hashtag
-        keywords: "SAW sensors, MEMS/NEMS biosensors, electronic noses, sensor signal processing, pattern recognition"
-      - name: Nonlinear dynamics
-        icon: fa-solid fa-hashtag
-        keywords: "Stochastic resonance, synchronization, parametric excitation, chaotic Colpitts oscillators, Van der Pol systems"
-      - name: Soft matter
-        icon: fa-solid fa-hashtag
-        keywords: "Microswimmers, elastohydrodynamics, dynamic symmetry breaking"
+        keywords:
+          - Fractals and percolation
+          - 1/f (flicker) noise
+          - Variable-range hopping
+          - Dielectric breakdown statistics
+          - Electrostatics of fractal clusters
+
       - name: Semiconductor materials & devices
         icon: fa-solid fa-hashtag
-        keywords: "HgCdTe, CdTe, IR detectors, MOS device physics, ion-implantation effects"
+        keywords:
+          - HgCdTe / CdTe infrared materials
+          - Te precipitation and crystal defects
+          - Hole-scattering mechanisms
+          - Intrinsic carrier concentration
+          - MOS device physics
+          - Gate-oxide reliability
+
+      - name: SAW & MEMS/NEMS sensors
+        icon: fa-solid fa-hashtag
+        keywords:
+          - Surface-acoustic-wave devices
+          - Polymer-coated chemical sensors
+          - Microcantilever biosensors
+          - Sensor mass-sensitivity analysis
+          - Multi-frequency viscoelastic characterization
+          - Sensor architectures and oscillator design
+
+      - name: Electronic-nose analytics & machine learning
+        icon: fa-solid fa-hashtag
+        keywords:
+          - Pattern recognition and feature extraction
+          - Wavelet & PCA preprocessing
+          - Genetic-algorithm-boosted classification
+          - Fuzzy c-means clustering
+          - Bayesian and Dempster–Shafer fusion
+          - Polymer selection by data mining
+          - LSER-guided sensor array design
+
+      - name: Nonlinear dynamics & stochastic resonance
+        icon: fa-solid fa-hashtag
+        keywords:
+          - Stochastic resonance in MEMS sensors
+          - Synchronization in coupled SAW oscillators
+          - Chaotic Colpitts oscillators
+          - Van der Pol oscillator dynamics
+          - Parametric excitation and amplitude death
+          - Phase dynamics
+
+      - name: Soft matter & active microswimmers
+        icon: fa-solid fa-hashtag
+        keywords:
+          - Elastohydrodynamic propulsion
+          - Inter-filament hydrodynamic interaction
+          - Parametric stiffness modulation
+          - Magnetic flagellated microswimmers
+          - Tapered elastic filaments
+          - Low-Reynolds-number locomotion
+
+      - name: Sensing applications
+        icon: fa-solid fa-hashtag
+        keywords:
+          - Chemical-warfare-agent and explosives detection
+          - Breath analysis
+          - Food spoilage and freshness monitoring
+          - Body-odour discrimination
+          - Water-quality biosensing
+          - Infrared imaging materials

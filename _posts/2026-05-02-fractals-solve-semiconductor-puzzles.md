@@ -29,6 +29,8 @@ A plain-language walk-through of three 1989 papers in **Jpn. J. Appl. Phys.** {%
 
 ## Two enigmas, one device
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-solve-semiconductor-puzzles/page-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Two long-standing puzzles in MOS device physics — breakdown and 1/f noise — historically treated as unrelated." %}
+
 For decades, two phenomena dogged MOS reliability and performance:
 
 1. **Dielectric breakdown** of the gate oxide — categorised as "intrinsic" or "defect-related" but with a statistical signature that classical Poisson models could not reproduce.
@@ -38,11 +40,15 @@ The argument here: both are signatures of the same underlying fact — _the geom
 
 ## The clue in the breakdown data
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-solve-semiconductor-puzzles/page-04.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Across independent datasets, defect density vs. capacitor area follows a straight log–log line — the fingerprint of a power law." %}
+
 The conventional view assumed defects in the gate oxide were Poisson-random. That predicts a defect density $D$ independent of capacitor area $A$. Experimentally, however, plotting $D$ versus $A$ on log–log gives a straight line — a clear power law,
 $$D(A) \;\propto\; A^{(Q-2)/2},$$
 across multiple independent datasets (Wolters & Van der Schoot, Osburn & Ormond, Chan & Waggener). A straight log–log line is a fingerprint of a fractal cluster, not a random distribution. Independent measurements gave $Q$ values of $1.5$, $0.8$, and $0.2$ — all firmly below the $Q = 2$ that random distributions would require.
 
 ## A "trema-fractal" oxide
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-solve-semiconductor-puzzles/page-07.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The 'Swiss cheese' picture: defects are tremas cut out of the oxide; the surviving defect-free region is a trema-fractal." %}
 
 Treat the oxide as a sheet and defects as cut-outs ("tremas"). The defect-free remainder is a _trema-fractal_ — a Mandelbrot construction whose properties are set by the size distribution of the cut-outs.
 
@@ -57,6 +63,8 @@ from first principles. The model only makes sense for $\gamma < 1$, which leaves
 
 ## A fractal interface, and the origin of 1/f
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-solve-semiconductor-puzzles/page-09.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="The Si–SiO₂ interface modelled as a Sierpiński-carpet-like fractal with self-similar patches at all scales." %}
+
 Standard 1/f-noise theories (e.g. McWhorter) assume a uniform distribution of trapping time constants and bolt the 1/f spectrum on with an ad-hoc weighting. The fractal proposal flips this: model the Si–SiO₂ interface itself as a fractal — a Sierpiński-carpet-like structure with patches of different potential at every length scale.
 
 - The fractal dimension $d$ obeys $d = \ln(b^{2}-c)/\ln(b)$, with $1 < d < 2$.
@@ -65,9 +73,13 @@ Standard 1/f-noise theories (e.g. McWhorter) assume a uniform distribution of tr
   $$S(\omega) \;\propto\; 1/\omega^{\alpha},$$
   with $\alpha$ derived from $d$, not assumed.
 
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-solve-semiconductor-puzzles/page-10.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Summing patch contributions across scales naturally produces a 1/f^α spectrum." %}
+
 For $d \to 2$ (a coarse, nearly space-filling interface), $\alpha \to 1$. For $d \to 1$ (a smoother, line-like interface), $\alpha$ deviates from $1$. The well-known experimental observation that flicker exponents are _close to but not exactly_ $1$ is, in this picture, a direct readout of interface fractality.
 
 ## One concept, two phenomena
+
+{% include figure.liquid loading="lazy" path="assets/img/blog/fractals-solve-semiconductor-puzzles/page-12.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="From two random-looking puzzles to one fractal explanation." %}
 
 | Phenomenon              | Random model                                | Fractal model                            |
 | ----------------------- | ------------------------------------------- | ---------------------------------------- |
