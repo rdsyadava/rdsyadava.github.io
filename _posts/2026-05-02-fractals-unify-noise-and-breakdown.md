@@ -13,11 +13,12 @@ related_publications:
   - yadava1989_scaling_oxide_defects_breakdown
 ---
 
-A companion deck to ["Fractals solve semiconductor puzzles"]({% post_url 2026-05-02-fractals-solve-semiconductor-puzzles %}) — the same body of work {% cite yadava1989_searching_fractal_basis_mosfets %}{% cite yadava1989_fractal_defect_clustering_gate_oxides %}{% cite yadava1989_scaling_oxide_defects_breakdown %}, framed around the unifying claim: *catastrophic failure and pervasive noise are two faces of one geometry*.
+A companion deck to ["Fractals solve semiconductor puzzles"]({% post_url 2026-05-02-fractals-solve-semiconductor-puzzles %}) — the same body of work {% cite yadava1989_searching_fractal_basis_mosfets %}{% cite yadava1989_fractal_defect_clustering_gate_oxides %}{% cite yadava1989_scaling_oxide_defects_breakdown %}, framed around the unifying claim: _catastrophic failure and pervasive noise are two faces of one geometry_.
 
 ## Watch
 
 <!-- TODO(media): replace YOUTUBE_VIDEO_ID with the unlisted/public ID for "Unified Theory of Flicker Noise.mp4" once uploaded. -->
+
 {% include video.liquid path="https://www.youtube-nocookie.com/embed/YOUTUBE_VIDEO_ID" class="img-fluid rounded z-depth-1" width="100%" height="400" title="Unified theory of flicker noise" %}
 
 ## Read
@@ -33,7 +34,7 @@ In the 1980s, two of the most persistent challenges in MOS device physics were t
 - **Erratic dielectric breakdown.** Why do nominally identical capacitors fail at such a wide distribution of fields? Poisson defect models could not reproduce the observed statistics.
 - **1/f flicker noise.** Why does this specific spectral shape appear so consistently across devices and materials, with no single accepted physical basis?
 
-The proposal: a common geometric origin — the *fractality* of imperfections in processed silicon.
+The proposal: a common geometric origin — the _fractality_ of imperfections in processed silicon.
 
 ## The first clue: defect density depends on area
 
@@ -50,13 +51,13 @@ Two assumptions, one geometric and one physical, are enough.
 
 From these, the experimentally observed extreme-value distribution
 $$D(E) \;=\; D_0\,\exp(bE)$$
-follows by direct calculation. Picturing the oxide film as a sheet with defects cut out as "tremas," the surviving defect-free region is a *trema-fractal*. Self-consistency rules out $\gamma \geq 1$ — the only physically admissible regime is $\gamma < 1$, giving a connected, defect-free Swiss-cheese.
+follows by direct calculation. Picturing the oxide film as a sheet with defects cut out as "tremas," the surviving defect-free region is a _trema-fractal_. Self-consistency rules out $\gamma \geq 1$ — the only physically admissible regime is $\gamma < 1$, giving a connected, defect-free Swiss-cheese.
 
 ## The second puzzle, the same geometry
 
-If fractality describes bulk oxide defects, can the *interface* be fractal too? The hypothesis: the Si–SiO₂ interface — the inhomogeneous distribution of fixed charges, potential fluctuations, surface roughness — is geometrically self-similar across a range of scales.
+If fractality describes bulk oxide defects, can the _interface_ be fractal too? The hypothesis: the Si–SiO₂ interface — the inhomogeneous distribution of fixed charges, potential fluctuations, surface roughness — is geometrically self-similar across a range of scales.
 
-Modelled as a Sierpiński-carpet–like fractal of dimension $d \in (1, 2)$, each construction stage contributes patches with their own admittance $Y(\omega)$ and characteristic time. The total admittance is a *geometric series* in stage index, and the resulting noise power spectrum becomes
+Modelled as a Sierpiński-carpet–like fractal of dimension $d \in (1, 2)$, each construction stage contributes patches with their own admittance $Y(\omega)$ and characteristic time. The total admittance is a _geometric series_ in stage index, and the resulting noise power spectrum becomes
 $$S(\omega) \;\propto\; 1/\omega^{\alpha},$$
 with $\alpha$ derived from the interface fractal dimension $d$ — not posited. As $d \to 2$, $\alpha \to 1$. As $d$ moves away from 2, $\alpha$ deviates accordingly.
 
@@ -64,20 +65,19 @@ This is the testable claim: deviations of measured flicker exponents from exactl
 
 ## One geometry, two phenomena
 
-| | Dielectric breakdown | 1/f flicker noise |
-| --- | --- | --- |
-| Old picture | Poisson defects | uniform trap time-constants |
-| New picture | trema-fractal oxide | fractal Si–SiO₂ interface |
-| Key parameter | $\gamma < 1$ defect-size exponent | interface dimension $d \in (1,2)$ |
-| Observable | $D(A) \propto A^{-(2-Q)/2}$ | $S(\omega) \propto \omega^{-\alpha}$ with $\alpha = \alpha(d)$ |
-| What it derives | extreme-value $D(E)$ | the 1/f spectrum itself |
+|                 | Dielectric breakdown              | 1/f flicker noise                                              |
+| --------------- | --------------------------------- | -------------------------------------------------------------- |
+| Old picture     | Poisson defects                   | uniform trap time-constants                                    |
+| New picture     | trema-fractal oxide               | fractal Si–SiO₂ interface                                      |
+| Key parameter   | $\gamma < 1$ defect-size exponent | interface dimension $d \in (1,2)$                              |
+| Observable      | $D(A) \propto A^{-(2-Q)/2}$       | $S(\omega) \propto \omega^{-\alpha}$ with $\alpha = \alpha(d)$ |
+| What it derives | extreme-value $D(E)$              | the 1/f spectrum itself                                        |
 
 ## Why it matters
 
 Two implications followed.
 
-- **Statistics → physics.** The model answers not just *what* the empirical distributions are but *why* they take that form, replacing fitted exponents with derived ones tied to a measurable geometric object.
-- **Process → reliability.** The fractal dimensions $Q$, $d$, $\gamma$ are process-dependent. Improving reliability becomes the engineering problem of *controlling* fractality — smoother interfaces, less clustered defect distributions, processing recipes whose targets are geometric rather than purely chemical.
+- **Statistics → physics.** The model answers not just _what_ the empirical distributions are but _why_ they take that form, replacing fitted exponents with derived ones tied to a measurable geometric object.
+- **Process → reliability.** The fractal dimensions $Q$, $d$, $\gamma$ are process-dependent. Improving reliability becomes the engineering problem of _controlling_ fractality — smoother interfaces, less clustered defect distributions, processing recipes whose targets are geometric rather than purely chemical.
 
 The hidden order, on this account, was there all along — written in the language of fractal geometry.
-

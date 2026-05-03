@@ -16,6 +16,7 @@ A companion deck to ["The hidden geometry of conduction in thin films"]({% post_
 ## Watch
 
 <!-- TODO(media): replace YOUTUBE_VIDEO_ID with the unlisted/public ID for "The_Fractal_Secret.mp4" once uploaded. -->
+
 {% include video.liquid path="https://www.youtube-nocookie.com/embed/YOUTUBE_VIDEO_ID" class="img-fluid rounded z-depth-1" width="100%" height="400" title="The fractal secret" %}
 
 ## Read
@@ -36,15 +37,15 @@ which depends entirely on the capacitance $C$ of an island.
 
 ## The flawed assumption
 
-Past work invariably assumed $C \propto r$, the linear scaling appropriate for *Euclidean* islands. For the worm-like, ramified islands that actually appear in discontinuous films near percolation, that assumption is in gross error. The real question is geometric: **what is the actual shape of these islands?**
+Past work invariably assumed $C \propto r$, the linear scaling appropriate for _Euclidean_ islands. For the worm-like, ramified islands that actually appear in discontinuous films near percolation, that assumption is in gross error. The real question is geometric: **what is the actual shape of these islands?**
 
 ## Where the charge can — and cannot — sit
 
-When charge is placed on a fractal cluster, it does not coat the surface uniformly. The deep invaginations are electrostatically shielded, like the inside of a hollow sphere. Charge accumulates only on the *unshielded perimeter* $t_u$, defined by the outward-extending tips and buds.
+When charge is placed on a fractal cluster, it does not coat the surface uniformly. The deep invaginations are electrostatically shielded, like the inside of a hollow sphere. Charge accumulates only on the _unshielded perimeter_ $t_u$, defined by the outward-extending tips and buds.
 
 Assume $t_u$ is itself scaling,
 $$t_u \;\propto\; r^{d_c},$$
-where $d_c$ is a new "charging exponent" describing the *electrostatically active* fraction of the boundary.
+where $d_c$ is a new "charging exponent" describing the _electrostatically active_ fraction of the boundary.
 
 - For Euclidean shapes $d_c = d - 1$ (the whole boundary is active).
 - For highly ramified fractals $d_c \to d - 2$ (most of the boundary is hidden inside shielded regions).
@@ -74,7 +75,7 @@ The temperature exponent is determined entirely by the cluster geometry.
 - **Cermets (Euclidean grains)**: $d_c \to d - 1 \Rightarrow c \to 1 \Rightarrow x = 1/2$.
 - **Discontinuous films (ramified clusters)**: $d_c \to d - 2 \Rightarrow c \to 0 \Rightarrow x \to 1$.
 
-The "wandering" of $x$ is not evidence of different physics. It is a direct reflection of the underlying cluster geometry — *geometry is destiny*.
+The "wandering" of $x$ is not evidence of different physics. It is a direct reflection of the underlying cluster geometry — _geometry is destiny_.
 
 ## The story in three steps
 
@@ -82,5 +83,4 @@ The "wandering" of $x$ is not evidence of different physics. It is a direct refl
 2. **The insight.** Most of a fractal's boundary is electrostatically shielded; what matters is the unshielded perimeter and its scaling exponent $c$, with $E_c \propto 1/r^{c}$ and $0 < c < 1$.
 3. **The unification.** Combined with percolation theory this produces $x = 1/(1+c)$, recovering the full observed range from $1/2$ (cermets) to $1$ (discontinuous films) as a single geometric consequence.
 
-The electrostatic properties of disordered systems are not set by size alone; they are set by the *effective unshielded geometry* of the conducting clusters.
-
+The electrostatic properties of disordered systems are not set by size alone; they are set by the _effective unshielded geometry_ of the conducting clusters.

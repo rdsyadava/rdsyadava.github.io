@@ -18,6 +18,7 @@ A plain-language walk-through of three 1989 papers in **Jpn. J. Appl. Phys.** {%
 ## Watch
 
 <!-- TODO(media): replace YOUTUBE_VIDEO_ID with the unlisted/public ID for "The_Universe_s_Secret_Hum.mp4" once uploaded. -->
+
 {% include video.liquid path="https://www.youtube-nocookie.com/embed/YOUTUBE_VIDEO_ID" class="img-fluid rounded z-depth-1" width="100%" height="400" title="The universe's secret hum" %}
 
 ## Read
@@ -33,7 +34,7 @@ For decades, two phenomena dogged MOS reliability and performance:
 1. **Dielectric breakdown** of the gate oxide — categorised as "intrinsic" or "defect-related" but with a statistical signature that classical Poisson models could not reproduce.
 2. **1/f (flicker) noise** — universal, low-frequency, and hotly contested in origin, with no single physical theory accepted across devices and processes.
 
-The argument here: both are signatures of the same underlying fact — *the geometry of imperfection in MOS devices is fractal*.
+The argument here: both are signatures of the same underlying fact — _the geometry of imperfection in MOS devices is fractal_.
 
 ## The clue in the breakdown data
 
@@ -43,7 +44,7 @@ across multiple independent datasets (Wolters & Van der Schoot, Osburn & Ormond,
 
 ## A "trema-fractal" oxide
 
-Treat the oxide as a sheet and defects as cut-outs ("tremas"). The defect-free remainder is a *trema-fractal* — a Mandelbrot construction whose properties are set by the size distribution of the cut-outs.
+Treat the oxide as a sheet and defects as cut-outs ("tremas"). The defect-free remainder is a _trema-fractal_ — a Mandelbrot construction whose properties are set by the size distribution of the cut-outs.
 
 Two physically motivated postulates suffice:
 
@@ -61,22 +62,21 @@ Standard 1/f-noise theories (e.g. McWhorter) assume a uniform distribution of tr
 - The fractal dimension $d$ obeys $d = \ln(b^{2}-c)/\ln(b)$, with $1 < d < 2$.
 - Each scale of patches contributes its own admittance and time constant.
 - Summing over all scales gives a geometric series whose power spectrum is
-$$S(\omega) \;\propto\; 1/\omega^{\alpha},$$
-with $\alpha$ derived from $d$, not assumed.
+  $$S(\omega) \;\propto\; 1/\omega^{\alpha},$$
+  with $\alpha$ derived from $d$, not assumed.
 
-For $d \to 2$ (a coarse, nearly space-filling interface), $\alpha \to 1$. For $d \to 1$ (a smoother, line-like interface), $\alpha$ deviates from $1$. The well-known experimental observation that flicker exponents are *close to but not exactly* $1$ is, in this picture, a direct readout of interface fractality.
+For $d \to 2$ (a coarse, nearly space-filling interface), $\alpha \to 1$. For $d \to 1$ (a smoother, line-like interface), $\alpha$ deviates from $1$. The well-known experimental observation that flicker exponents are _close to but not exactly_ $1$ is, in this picture, a direct readout of interface fractality.
 
 ## One concept, two phenomena
 
-| Phenomenon | Random model | Fractal model |
-| --- | --- | --- |
-| Defect-density vs. area | constant (predicted) | power law with $Q < 2$ (observed) |
-| Breakdown statistics | strained extreme-value fit | derived from $\gamma < 1$ trema-fractal |
-| 1/f noise spectrum | requires assumed time-constant distribution | derived from interface fractal dimension |
+| Phenomenon              | Random model                                | Fractal model                            |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Defect-density vs. area | constant (predicted)                        | power law with $Q < 2$ (observed)        |
+| Breakdown statistics    | strained extreme-value fit                  | derived from $\gamma < 1$ trema-fractal  |
+| 1/f noise spectrum      | requires assumed time-constant distribution | derived from interface fractal dimension |
 
-The fractal dimensions $Q$, $d$, and $\gamma$ are not abstractions — they are *process-dependent* and reflect oxide growth conditions, contamination, and thermal processing. Reliability engineering then becomes a problem of controlling process-induced fractality: engineer smoother interfaces and less clustered defect distributions.
+The fractal dimensions $Q$, $d$, and $\gamma$ are not abstractions — they are _process-dependent_ and reflect oxide growth conditions, contamination, and thermal processing. Reliability engineering then becomes a problem of controlling process-induced fractality: engineer smoother interfaces and less clustered defect distributions.
 
 ## What the work changed
 
-It moved the discussion from statistics to physics: not just *what* the distributions are, but *why* they take the form they do. And it offered a single geometric concept — fractality of the imperfections — as the common physical basis for two phenomena that had been treated as unrelated for decades.
-
+It moved the discussion from statistics to physics: not just _what_ the distributions are, but _why_ they take the form they do. And it offered a single geometric concept — fractality of the imperfections — as the common physical basis for two phenomena that had been treated as unrelated for decades.
