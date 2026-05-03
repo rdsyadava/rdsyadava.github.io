@@ -2,29 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: ardius@gmail.com
+subtitle: Independent researcher · Condensed matter physics & sensor systems
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ardius@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 **R. D. S. Yadava** is an independent researcher in condensed matter physics and sensor systems. His work spans disordered systems, semiconductor materials, microsensors, and intelligent sensing architectures, with a consistent emphasis on connecting physical theory to device behavior. He has contributed to the physics and design of SAW and MEMS/NEMS sensors, electronic nose systems, and sensor signal processing, introducing data-driven approaches to material selection, noise control, and sensitivity enhancement. His research interests include disorder-driven transport and noise, fractals and percolation, nonlinear dynamics, and stochastic resonance, with applications to semiconductor devices and chemical sensing platforms. 
